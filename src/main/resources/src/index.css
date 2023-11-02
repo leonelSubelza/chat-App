@@ -50,6 +50,8 @@ button{
 
 .member-list{
   width: 20%;
+  display: flex;
+  flex-direction: column;
 }
 
 .chat-content{
@@ -83,6 +85,14 @@ ul {
   margin-left: 5px;
   cursor: pointer;
 }
+
+.leave-button{
+  width:50%;
+  border-radius: 50px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
 .member{
   padding: 10px;
   background: #eee;
@@ -123,4 +133,25 @@ ul {
 }
 .message.self{
   justify-content: end;
+}
+
+.user-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0 20px 0;
+}
+.user-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-info img{
+  width: 50%;
+  height: 50%;
+  margin: auto 0;
+}
+.user-info p{
+  text-align: center;
 }

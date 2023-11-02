@@ -2,11 +2,10 @@ package com.involveInovation.chatServer.controller.model;
 
 import lombok.*;
 
-@Getter
-@Setter
+@Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 public class Message {
 
     private String senderName;
