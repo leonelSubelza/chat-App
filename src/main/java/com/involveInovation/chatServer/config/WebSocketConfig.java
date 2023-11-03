@@ -39,7 +39,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        //Todos los que quieran establecer una conexión con este webSocket deberán establecer la URL con ws
+        //Todos los que quieran establecer una conexión con este webSocket deberán establecer la URL con 'ws'
         //Es decir para establecer la conexión será http:localhost:8080/ws. Se permite que cualquiera se pueda suscribir
         registry.addEndpoint("/ws").setAllowedOriginPatterns("*").withSockJS();
     }
