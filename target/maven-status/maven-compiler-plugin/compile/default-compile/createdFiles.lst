@@ -1,0 +1,5 @@
+com\involveInovation\chatServer\controller\model\Status.class
+com\involveInovation\chatServer\config\WebSocketConfig.class
+com\involveInovation\chatServer\controller\ChatController.class
+com\involveInovation\chatServer\ChatServerApplication.class
+com\involveInovation\chatServer\controller\model\Message.class
