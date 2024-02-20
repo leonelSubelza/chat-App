@@ -28,7 +28,7 @@ const ChatRoom = () => {
       //useEffect(()=>{ console.log("usedata: "+JSON.stringify(userData) );},[userData])
 
     const connect =()=>{
-        let Sock = new SockJS('http://192.168.1.3:8080/ws');
+        let Sock = new SockJS('http://localhost:8080/ws');
         stompClient = over(Sock);
         stompClient.connect({},onConnected, onError);
     }
